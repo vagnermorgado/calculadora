@@ -1,0 +1,92 @@
+	/* Geral */
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: helvetica;
+		color: #323232;
+		border: none;
+	}
+
+	
+
+	div {
+		background-color: skyblue;
+		padding: 20px;
+		border-radius: 15px;
+	}
+
+
+	textarea:focus, input:focus {
+		outline: none;
+	}
+
+	a, label {
+		font-size: .8rem; 
+	}
+
+	a:hover{
+		color: white;		
+	}
+
+	/*container login*/
+
+	body {
+		
+		login-container
+		background-color: #FFF;
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px 30px;
+		margin-top: 10vh;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	/* formulario */
+
+	form {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	label, input {
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+
+	label {
+		font-weight: bold;
+	}
+
+	input {
+		border-bottom: 2px solid black;
+		padding: 10px;
+		font-size: 1rem;
+		margin-bottom: 20px;
+	}
+
+	input:focus {
+		border-bottom: 2px solid darkblue;
+	}
+
+	input[type="submit"] {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		border: none;
+		height: 40px;
+		border-radius: 20px;
+		margin-top: 30px;
+		color: black;
+		background-color: white;
+		cursor: pointer;
+	}
+
+	input[type="submit"]:hover {
+		background-color: lightblue;
+		transition: .5s;
+	} 
